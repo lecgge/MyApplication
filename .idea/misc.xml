@@ -7,8 +7,11 @@
         <entry key="..\:/Production/MyApplication/app/src/main/res/drawable/edit_shape.xml" value="0.1765" />
         <entry key="..\:/Production/MyApplication/app/src/main/res/drawable/keyvisibily_selector.xml" value="0.1765" />
         <entry key="..\:/Production/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.16894630192502533" />
+        <entry key="..\:/Production/MyApplication/app/src/main/res/layout/fragment_ad.xml" value="0.33" />
         <entry key="..\:/Production/MyApplication/app/src/main/res/layout/fragment_bottom_nav.xml" value="0.34791666666666665" />
+        <entry key="..\:/Production/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.26510416666666664" />
         <entry key="..\:/Production/MyApplication/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Production/MyApplication/app/src/main/res/layout/fragment_main.xml" value="0.33" />
         <entry key="..\:/Production/MyApplication/app/src/main/res/layout/fragment_register.xml" value="0.34791666666666665" />
         <entry key="..\:/Production/MyApplication/app/src/main/res/layout/include_toolbar.xml" value="0.17083333333333334" />
         <entry key="..\:/Production/MyApplication/app/src/main/res/menu/bottomnav.xml" value="0.34791666666666665" />

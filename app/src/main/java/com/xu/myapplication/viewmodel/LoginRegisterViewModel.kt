@@ -22,6 +22,7 @@ class LoginRegisterViewModel : ViewModel() {
 
     private val  uiScope = CoroutineScope(Dispatchers.IO)
 
+
     fun login(view : View) {
         viewModelScope.launch {
             userInfo.value = async {

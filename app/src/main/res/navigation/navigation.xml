@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/adFragment">
 
     <fragment
         android:id="@+id/loginFragment"
@@ -35,6 +35,17 @@
             android:id="@+id/action_registerFragment_to_bottomNavFragment"
             app:destination="@id/bottomNavFragment"
             app:popUpTo="@id/bottomNavFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/adFragment"
+        android:name="com.xu.myapplication.fragment.AdFragment"
+        android:label="fragment_ad"
+        tools:layout="@layout/fragment_ad" >
+        <action
+            android:id="@+id/action_adFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
             app:popUpToInclusive="true" />
     </fragment>
 </navigation>
